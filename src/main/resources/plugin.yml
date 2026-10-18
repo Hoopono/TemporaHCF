@@ -1,0 +1,19 @@
+name: TemporaHCF
+main: com.hoopono.temporahcf.TemporaHCF
+version: 0.1.0
+api-version: 1.8
+commands:
+  temporada:
+    description: Comando principal de TemporaHCF
+    usage: /temporada <entrar|salir|list|top|shop|admin>
+    permission: tempora.use
+  top:
+    description: Mostrar top de facciones
+    permission: tempora.top
+permissions:
+  tempora.use:
+    default: true
+  tempora.admin:
+    default: op
+  tempora.top:
+    default: true

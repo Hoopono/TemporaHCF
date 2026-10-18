@@ -1,0 +1,15 @@
+registration-duration-hours: 24
+season-duration-days: 4
+max-factions: 25
+players-per-faction: 3
+world: temporada_world
+lobby-world: lobby
+min-spawn-distance: 150
+map-border-radius: 3000
+airdrop:
+  enabled: true
+  interval-minutes: 180
+shop:
+  enabled: true
+  use-vault: false
+storage: sqlite

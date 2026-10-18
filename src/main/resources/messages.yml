@@ -1,0 +1,5 @@
+messages:
+  no-permission: "No tienes permiso."
+  only-players: "Este comando solo puede usarse desde el juego."
+  registered: "Te has registrado en la facción %faction%."
+  unregistered: "Has salido de la facción %faction%."
